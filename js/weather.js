@@ -27,7 +27,7 @@ let weather = {
     document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".icon").alt = name;
      document.querySelector(".description").innerText = description
-      document.querySelector(".temp").innerText = Math.round(temp) + ' C'
+      document.querySelector(".temp").innerText = Math.round(temp) + "°C";
        document.querySelector(".humidity").innerText = 'Humidity: ' + humidity + '%'
         document.querySelector(".wind").innerText = 'Wind: ' + Math.round(speed) + ' m/s'
 
